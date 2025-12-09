@@ -1,22 +1,22 @@
-# Gerador de Conselhos Aleatórios (Python) 🐍💡
+# Gerador de Conselhos Aleatórios em Python
 
 Este é um script Python simples que consome uma **API pública** (Application Programming Interface) para buscar e exibir conselhos aleatórios no terminal.
 
-## 🎯 Objetivo
+##  Objetivo
 
 Demonstrar conhecimentos fundamentais em Python, especificamente:
 * Realizar requisições HTTP (GET) para serviços externos.
 * Manipular dados no formato **JSON**.
 * Tratamento básico de erros (try/except).
 
-## ⚙️ Como Funciona
+##  Como Funciona
 
 O script utiliza a API gratuita [Advice Slip JSON API](https://api.adviceslip.com/).
 1.  O código faz uma requisição `GET` para a URL da API.
 2.  A API retorna um objeto JSON contendo um ID e o texto do conselho.
 3.  O script converte esse JSON para um dicionário Python e extrai apenas a frase do conselho para exibir ao usuário.
 
-## 🚀 Como Rodar (Em sua máquina)
+##  Como Rodar em sua máquina
 
 ### Pré-requisitos
 * Python instalado (versão 3.x).
